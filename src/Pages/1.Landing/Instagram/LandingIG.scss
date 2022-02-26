@@ -1,0 +1,145 @@
+.LandingIG {
+    width: 100%;
+    // background-color: rgb(9, 9, 9);
+    // color: #FFF;
+    padding-bottom: 40px;
+    // border-top: 1px solid rgb(24, 24, 24);
+}
+
+    .LandingIG-Title {
+        padding-left: calc(5% + 15px);
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+        .LandingIG-IGInfoWrap {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 50px;
+        }
+
+            .LandingIG-InfoImage {
+                width: 100px;
+                height: 100px;
+               background: url('../../../Assets/Images/Landing/IGLogo.png');
+               background-position: center;
+               background-size: contain;
+               background-repeat: no-repeat;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+                .LandingIG-IGInfo {
+                    font-size: 18px;
+                    font-weight: 500;
+                    // color: #FFF;
+                    margin-right: 10px;
+                }
+
+                    .Verified {
+                        width: 20px;
+                        height: 20px;
+                        background: url('../../../Assets/Icons&Logos/IG/Verified.svg');
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+
+        .LandingIG-ImagesWrap {
+            width: 100%;
+            padding: 80px;
+            padding-top: 40px;
+        }
+
+            .LandingIG-ImagesRow {
+                width: 100%;
+                height: 360px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-bottom: 40px;
+            }
+
+                .LandingIG-Image {
+                    width: 29%;
+                    height: 100%;
+                    background-color: #FFF;
+                    // box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+                }
+
+                    .LandingIG-Image1 {
+                        background: url('../../../Assets/Images/Landing/IG1.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .LandingIG-Image2 {
+                        background: url('../../../Assets/Images/Landing/IG2.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .LandingIG-Image3 {
+                        background: url('../../../Assets/Images/Landing/IG3.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .LandingIG-Image4 {
+                        background: url('../../../Assets/Images/Landing/IG4.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .LandingIG-Image5 {
+                        background: url('../../../Assets/Images/Landing/IG5.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .LandingIG-Image6 {
+                        background: url('../../../Assets/Images/Landing/IG6.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+
+
+
+@media screen and (max-width: 800px){
+    .LandingIG-ImagesWrap {
+        padding: 50px 40px;
+    }
+    .LandingIG-ImagesRow {
+        height: 200px;
+    }
+    .LandingIG-Title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .LandingIG-Title {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 550px){
+    .LandingIG-ImagesWrap {
+        padding: 35px 20px;
+        justify-self: center;
+    }
+    .LandingIG-ImagesRow {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .LandingIG-IGInfoWrap {
+        padding: 0;
+    }
+    .LandingIG-Title {
+        padding-bottom: 20px;
+    }
+}

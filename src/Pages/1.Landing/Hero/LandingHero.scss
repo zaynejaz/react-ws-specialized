@@ -1,0 +1,157 @@
+.Landing-Hero {
+    width: 100%;
+    height: calc(100vh - 90px);
+    background: url('../../../Assets/Images/Landing/LandingHero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 10px;
+}
+
+    .Landing-Hero-Content {
+        display: inline-block;
+        color: #FFF;
+        padding-left: 80px;
+        padding-top: 8%;
+        transition: padding-top .2s ease-in;
+        
+    }
+
+        .Landing-Hero-TitleWrap {
+            
+        }
+
+            .Landing-Hero-Title {
+                font-size: 75px;
+                font-weight: 900;
+                
+            }
+
+            .Landing-Hero-Text {
+                font-size: 15px;
+                line-height: 20px;
+            }
+
+        .Landing-Hero-Button {
+            width: 130px;
+            height: 45px;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            background-color: #4E4E4E;
+            font-weight: 600;
+            white-space: nowrap;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+            .Landing-Hero-Button:hover {
+                background-color: rgb(57, 57, 57);
+            }
+
+    .Landing-Hero-BottomHookWrap {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 90px;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+        .Landing-Hero-BottomHook {
+            font-size: 12px;
+            font-weight: 300;
+            color: #FFF;
+        }
+
+            .Bolder {
+                font-weight: 800;
+            }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1550px){
+  .Landing-Hero-Content {
+    //   padding-top: 25%;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .Landing-Hero-Title {
+        font-size: 6vw;
+    }
+    .Landing-Hero-Text {
+        font-size: 12px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .Landing-Hero {
+        height: calc(100vh - 70px);
+    }
+}
+@media screen and (max-width: 980px){
+    .Landing-Hero-Title {
+        font-size: 50px;
+    }
+    .Landing-Hero-Text {
+        width: 90%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .Landing-Hero-Content {
+        padding-left: 20px;
+      
+  }
+  .Landing-Hero-BottomHookWrap {
+      padding-left: 20px;
+      padding-bottom: 40px;
+  }
+  .Landing-Hero-Button {
+      width: 130px;
+      height: 40px;
+      font-size: 14px;
+  }
+  .Landing-Hero-Text {
+      width: 80%;
+  }
+}
+
+@media screen and (max-height: 700px){
+    .Landing-Hero-Content {
+      padding-top: 70px;
+    }
+    .Landing-Hero-Title {
+      font-size: 5vw;
+    }
+    .Landing-Hero-Text {
+        width: 100%;
+    }
+    .Landing-Hero-BottomHookWrap {
+        right: 0;
+        left: auto;
+        padding-right: 40px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .Landing-Hero-Title {
+        font-size: 40px;
+    }
+}

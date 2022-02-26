@@ -1,0 +1,97 @@
+.BikesMenu {
+    width: 250px;
+    height: 500px;
+    padding-top: 5px;
+}
+
+    .BikesMenu-Wrap {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+        .BikesMenu-Title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .BikesMenu-Group {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+            .BikesMenu-SubTitle {
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
+
+                .BikesMenu-ItemWrap {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    margin-left: 5px;
+                }       
+
+                    .BikesMenu-PrimaryTextBox {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+                
+                        .BikesMenu-AddIcon {
+                            margin-right: 10px;
+                            font-weight: 600;
+                            display: none;
+                        }
+
+                        .BikesMenu-SubIcon {
+                            margin-right: 10px;
+                            font-weight: 600;
+                            display: none;
+                        }
+
+                        .BikesMenu-Text {
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                            .BikesMenu-Text:hover {
+                                font-weight: 700;
+                            }
+
+                .BikesMenu-SecondLevel {
+                    width: 100%;
+                    padding-left: 10px;
+                    display: none;
+                }
+
+                    .ActiveLevel {
+                        display: block;
+                    }
+
+                    .BikesMenu-SecondaryText {
+                        font-size: 12px;
+                        font-weight: 500;
+                        margin: 10px 0;
+                    }
+                        .BikesMenu-SecondaryText:hover {
+                            font-weight: 600;
+                        }
+                
+
+        .BikesMenu-Note {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+            padding-right: 20px;
+        }
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .BikesMenu {
+        display: none;
+    }
+}

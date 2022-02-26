@@ -1,0 +1,71 @@
+.App {
+    width: 100%;
+    position: relative;
+    font-family: "montserrat", sans-serif;
+    font-style: normal;
+    color: #191919;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+.AppInner {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+
+.AppContentWrap {
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 90px;
+    margin-bottom: 200px;
+    z-index: 5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #141414;
+    display: block;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1920px) {
+    .AppContentWrap {
+        // max-width: 1700px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .AppContentWrap {
+        // max-width: 1500px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .AppContentWrap {
+        // max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .AppContentWrap {
+        // max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .AppContentWrap {
+        margin-top: 70px;
+        margin-bottom: 485px;
+    }
+}

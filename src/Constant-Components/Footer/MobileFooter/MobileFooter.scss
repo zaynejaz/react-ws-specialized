@@ -1,0 +1,158 @@
+.MobileFooter {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -120px;
+    display: none;
+    justify-content: center;
+    background-color: #141414;
+    color: #fff;
+    padding: 0 20px;
+    z-index: 900;
+}
+
+.MobileFooterWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+//Top - Form
+.MobileFooter-Top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MobileFooter-Form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.MobileFooter-FormInput {
+    border: none;
+    width: 100%;
+    height: 45px;
+    background-color: #4e4e4e;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.MobileFooter-FormSubmit {
+    height: 45px;
+    background-color: #d32e2e;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.MobileFooter-Left-Text {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0;
+    text-align: center;
+    width: 90%;
+    line-height: 20px;
+}
+
+.MobileFooter-Terms {
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+//Middle - Retailer
+.MobileFooter-Middle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MobileFooter-Right-RetailerButton {
+    width: 100%;
+    height: 45px;
+    background-color: #4e4e4e;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.MobileFooter-SocialTags {
+    width: 280px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+//Bottom
+.MobileFooter-Bottom {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.MobileFooter-CenterText {
+    white-space: nowrap;
+    margin: 0 10px;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.FullFooter-CopyRights-Bottom-ZE-mobile {
+    width: auto;
+    height: 50px;
+    // margin: auto;
+}
+
+.FullFooter-CopyRights-Bottom-ZE-mobile a {
+    width: 100%;
+}
+.FullFooter-CopyRights-Bottom-ZE-mobile a p {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.FullFooter-CopyRights-Bottom-ZElogo {
+    width: 50px;
+    height: 50px;
+    background: url("../../../Assets/Icons&Logos/Footer/ZE-logo-blu.svg");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+    .MobileFooter {
+        display: flex;
+    }
+}
